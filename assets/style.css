@@ -38,6 +38,10 @@ body{
     left: 0;
 }
 
+#secondsection{
+    padding-bottom: 50px;
+}
+
 .titleaus1{
     height: 100%;
     padding-top: 300px;
@@ -55,7 +59,7 @@ body{
     width: 120px;
 }
 
-#firstsection{
+#firstsection, #thirdsection{
     background-color: #343a40;
 }
 
