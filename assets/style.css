@@ -3,13 +3,18 @@
 } */
 
 .logo-sp{
-    width: 9%;
+    width: 20%;
 }
 
 body{
     overflow-x: hidden;
     width: 100%;
 }
+
+.bg-dark {
+    background-color: rgba(0,0,0,.9)!important;
+}
+
 
 .itemsbar{
     width: 240px;
@@ -45,6 +50,7 @@ body{
     top:0;
     right: 0;
     left: 0;
+    background: black !important;
 }
 
 #secondsection{
