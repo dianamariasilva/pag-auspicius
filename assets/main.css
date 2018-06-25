@@ -1,4 +1,12 @@
 /*CLASES REUTILIZABLES*/
+span{
+  color: #28aa9b !important;
+}
+span:first-child, span:last-child {
+  color: #28aa9b;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -99,6 +107,10 @@ header {
 .menu {
   padding: 14px 70px;
   overflow: auto;
+}
+
+.navbar{
+  background: #000000;
 }
 
 #home {
