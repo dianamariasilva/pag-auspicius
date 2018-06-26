@@ -2,6 +2,10 @@
 span{
   color: #28aa9b !important;
 }
+/* 
+.img2{
+  filter:contrast(50%)
+} */
 span:first-child, span:last-child {
   color: #28aa9b;
   -webkit-filter: blur(2px);
@@ -233,9 +237,7 @@ header {
   width: 100%
 }
 .zoom{
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 50% 50%;
 }
 .zoom:hover{ 
   -webkit-transform: scale(1.5);
@@ -402,7 +404,6 @@ figure.snip1206 {
   max-width: 310px;
   max-height: 220px;
   width: 100%;
-  color: #000000;
   text-align: center;
 }
 figure.snip1206 * {
@@ -418,7 +419,7 @@ figure.snip1206 img {
   transition: opacity 0.35s;
 }
 figure.snip1206:after {
-  background: #ffffff;
+  background: #0a0a0a;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -449,13 +450,14 @@ figure.snip1206 p {
 figure.snip1206 h5 {
   padding: 0 30px;
   display: inline-block;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 0.7em;
+  /* font-weight: 400; */
+  /* text-transform: uppercase; */
 }
 figure.snip1206 p {
   padding: 0 50px;
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 0.6em;
+  font-weight: 300;
 }
 figure.snip1206 a {
   left: 0;
